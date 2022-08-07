@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Baloo Bhaijaan 2', cursive; 
+}
+#conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+img{
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+#watch{
+    position: absolute;
+    width: min-content;
+    padding: 100px;
+    z-index: 3;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+}
+#name{
+    margin-bottom: 35px;
+}
+#hr, #min, #sec{
+    font-size: 65px;
+}
+#btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    font-weight: 600;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    color: #ffff;
+    background-color: rgb(129, 126, 206);
+    border: 2.5px solid rgb(20, 17, 17);
+    box-shadow: 5px 5px 5px rgb(16, 14, 14);
+    border-radius: 5px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    outline: none;
+}
+/* while the hover over the buttons with mouse chagnges occur */
+button:hover{ 
+    background:transparent;
+    color: black;
+    font-weight: 200;
+
+}
